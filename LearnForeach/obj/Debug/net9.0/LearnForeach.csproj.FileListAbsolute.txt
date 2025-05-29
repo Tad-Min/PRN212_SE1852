@@ -1,0 +1,14 @@
+D:\fpt\C#\PRN212_SE1852\LearnForeach\bin\Debug\net9.0\LearnForeach.exe
+D:\fpt\C#\PRN212_SE1852\LearnForeach\bin\Debug\net9.0\LearnForeach.deps.json
+D:\fpt\C#\PRN212_SE1852\LearnForeach\bin\Debug\net9.0\LearnForeach.runtimeconfig.json
+D:\fpt\C#\PRN212_SE1852\LearnForeach\bin\Debug\net9.0\LearnForeach.dll
+D:\fpt\C#\PRN212_SE1852\LearnForeach\bin\Debug\net9.0\LearnForeach.pdb
+D:\fpt\C#\PRN212_SE1852\LearnForeach\obj\Debug\net9.0\LearnForeach.GeneratedMSBuildEditorConfig.editorconfig
+D:\fpt\C#\PRN212_SE1852\LearnForeach\obj\Debug\net9.0\LearnForeach.AssemblyInfoInputs.cache
+D:\fpt\C#\PRN212_SE1852\LearnForeach\obj\Debug\net9.0\LearnForeach.AssemblyInfo.cs
+D:\fpt\C#\PRN212_SE1852\LearnForeach\obj\Debug\net9.0\LearnForeach.csproj.CoreCompileInputs.cache
+D:\fpt\C#\PRN212_SE1852\LearnForeach\obj\Debug\net9.0\LearnForeach.dll
+D:\fpt\C#\PRN212_SE1852\LearnForeach\obj\Debug\net9.0\refint\LearnForeach.dll
+D:\fpt\C#\PRN212_SE1852\LearnForeach\obj\Debug\net9.0\LearnForeach.pdb
+D:\fpt\C#\PRN212_SE1852\LearnForeach\obj\Debug\net9.0\LearnForeach.genruntimeconfig.cache
+D:\fpt\C#\PRN212_SE1852\LearnForeach\obj\Debug\net9.0\ref\LearnForeach.dll

@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\bin\Debug\net8.0\OOP3_ExtendtionMethod.exe
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\bin\Debug\net8.0\OOP3_ExtendtionMethod.deps.json
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\bin\Debug\net8.0\OOP3_ExtendtionMethod.runtimeconfig.json
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\bin\Debug\net8.0\OOP3_ExtendtionMethod.dll
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\bin\Debug\net8.0\OOP3_ExtendtionMethod.pdb
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\obj\Debug\net8.0\OOP3_ExtendtionMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\obj\Debug\net8.0\OOP3_ExtendtionMethod.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\obj\Debug\net8.0\OOP3_ExtendtionMethod.AssemblyInfo.cs
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\obj\Debug\net8.0\OOP3_ExtendtionMethod.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\obj\Debug\net8.0\OOP3_ExtendtionMethod.dll
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\obj\Debug\net8.0\refint\OOP3_ExtendtionMethod.dll
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\obj\Debug\net8.0\OOP3_ExtendtionMethod.pdb
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\obj\Debug\net8.0\OOP3_ExtendtionMethod.genruntimeconfig.cache
+C:\Users\Admin\Desktop\fpt\PRN212\learn\PRN212_SE1852\OOP2_ExtendtionMethod\obj\Debug\net8.0\ref\OOP3_ExtendtionMethod.dll

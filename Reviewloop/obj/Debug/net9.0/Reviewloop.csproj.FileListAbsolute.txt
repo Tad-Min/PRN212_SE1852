@@ -1,0 +1,14 @@
+D:\fpt\C#\PRN212_SE1852\Reviewloop\bin\Debug\net9.0\Reviewloop.exe
+D:\fpt\C#\PRN212_SE1852\Reviewloop\bin\Debug\net9.0\Reviewloop.deps.json
+D:\fpt\C#\PRN212_SE1852\Reviewloop\bin\Debug\net9.0\Reviewloop.runtimeconfig.json
+D:\fpt\C#\PRN212_SE1852\Reviewloop\bin\Debug\net9.0\Reviewloop.dll
+D:\fpt\C#\PRN212_SE1852\Reviewloop\bin\Debug\net9.0\Reviewloop.pdb
+D:\fpt\C#\PRN212_SE1852\Reviewloop\obj\Debug\net9.0\Reviewloop.GeneratedMSBuildEditorConfig.editorconfig
+D:\fpt\C#\PRN212_SE1852\Reviewloop\obj\Debug\net9.0\Reviewloop.AssemblyInfoInputs.cache
+D:\fpt\C#\PRN212_SE1852\Reviewloop\obj\Debug\net9.0\Reviewloop.AssemblyInfo.cs
+D:\fpt\C#\PRN212_SE1852\Reviewloop\obj\Debug\net9.0\Reviewloop.csproj.CoreCompileInputs.cache
+D:\fpt\C#\PRN212_SE1852\Reviewloop\obj\Debug\net9.0\Reviewloop.dll
+D:\fpt\C#\PRN212_SE1852\Reviewloop\obj\Debug\net9.0\refint\Reviewloop.dll
+D:\fpt\C#\PRN212_SE1852\Reviewloop\obj\Debug\net9.0\Reviewloop.pdb
+D:\fpt\C#\PRN212_SE1852\Reviewloop\obj\Debug\net9.0\Reviewloop.genruntimeconfig.cache
+D:\fpt\C#\PRN212_SE1852\Reviewloop\obj\Debug\net9.0\ref\Reviewloop.dll

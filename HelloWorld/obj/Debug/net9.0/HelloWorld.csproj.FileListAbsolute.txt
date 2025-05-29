@@ -1,0 +1,14 @@
+D:\fpt\C#\PRN212_SE1852\HelloWorld\bin\Debug\net9.0\HelloWorld.exe
+D:\fpt\C#\PRN212_SE1852\HelloWorld\bin\Debug\net9.0\HelloWorld.deps.json
+D:\fpt\C#\PRN212_SE1852\HelloWorld\bin\Debug\net9.0\HelloWorld.runtimeconfig.json
+D:\fpt\C#\PRN212_SE1852\HelloWorld\bin\Debug\net9.0\HelloWorld.dll
+D:\fpt\C#\PRN212_SE1852\HelloWorld\bin\Debug\net9.0\HelloWorld.pdb
+D:\fpt\C#\PRN212_SE1852\HelloWorld\obj\Debug\net9.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\fpt\C#\PRN212_SE1852\HelloWorld\obj\Debug\net9.0\HelloWorld.AssemblyInfoInputs.cache
+D:\fpt\C#\PRN212_SE1852\HelloWorld\obj\Debug\net9.0\HelloWorld.AssemblyInfo.cs
+D:\fpt\C#\PRN212_SE1852\HelloWorld\obj\Debug\net9.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\fpt\C#\PRN212_SE1852\HelloWorld\obj\Debug\net9.0\HelloWorld.dll
+D:\fpt\C#\PRN212_SE1852\HelloWorld\obj\Debug\net9.0\refint\HelloWorld.dll
+D:\fpt\C#\PRN212_SE1852\HelloWorld\obj\Debug\net9.0\HelloWorld.pdb
+D:\fpt\C#\PRN212_SE1852\HelloWorld\obj\Debug\net9.0\HelloWorld.genruntimeconfig.cache
+D:\fpt\C#\PRN212_SE1852\HelloWorld\obj\Debug\net9.0\ref\HelloWorld.dll

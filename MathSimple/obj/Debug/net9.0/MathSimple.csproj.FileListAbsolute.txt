@@ -1,0 +1,14 @@
+D:\fpt\C#\PRN212_SE1852\MathSimple\bin\Debug\net9.0\MathSimple.exe
+D:\fpt\C#\PRN212_SE1852\MathSimple\bin\Debug\net9.0\MathSimple.deps.json
+D:\fpt\C#\PRN212_SE1852\MathSimple\bin\Debug\net9.0\MathSimple.runtimeconfig.json
+D:\fpt\C#\PRN212_SE1852\MathSimple\bin\Debug\net9.0\MathSimple.dll
+D:\fpt\C#\PRN212_SE1852\MathSimple\bin\Debug\net9.0\MathSimple.pdb
+D:\fpt\C#\PRN212_SE1852\MathSimple\obj\Debug\net9.0\MathSimple.GeneratedMSBuildEditorConfig.editorconfig
+D:\fpt\C#\PRN212_SE1852\MathSimple\obj\Debug\net9.0\MathSimple.AssemblyInfoInputs.cache
+D:\fpt\C#\PRN212_SE1852\MathSimple\obj\Debug\net9.0\MathSimple.AssemblyInfo.cs
+D:\fpt\C#\PRN212_SE1852\MathSimple\obj\Debug\net9.0\MathSimple.csproj.CoreCompileInputs.cache
+D:\fpt\C#\PRN212_SE1852\MathSimple\obj\Debug\net9.0\MathSimple.dll
+D:\fpt\C#\PRN212_SE1852\MathSimple\obj\Debug\net9.0\refint\MathSimple.dll
+D:\fpt\C#\PRN212_SE1852\MathSimple\obj\Debug\net9.0\MathSimple.pdb
+D:\fpt\C#\PRN212_SE1852\MathSimple\obj\Debug\net9.0\MathSimple.genruntimeconfig.cache
+D:\fpt\C#\PRN212_SE1852\MathSimple\obj\Debug\net9.0\ref\MathSimple.dll
