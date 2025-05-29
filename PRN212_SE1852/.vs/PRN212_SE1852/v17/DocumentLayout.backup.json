@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{954C39EE-00B9-4A3C-9C3C-66B89AA463DF}|Collection_Generic\\Collection_Generic.csproj|c:\\users\\admin\\desktop\\fpt\\prn212\\learn\\prn212_se1852\\collection_generic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{954C39EE-00B9-4A3C-9C3C-66B89AA463DF}|Collection_Generic\\Collection_Generic.csproj|solutionrelative:collection_generic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A3AB21-7223-40D3-BB46-96F876C5D4A7}|OOP2\\OOP2.csproj|c:\\users\\admin\\desktop\\fpt\\prn212\\learn\\prn212_se1852\\oop2\\parttimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A3AB21-7223-40D3-BB46-96F876C5D4A7}|OOP2\\OOP2.csproj|solutionrelative:oop2\\parttimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParttimeEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\OOP2\\ParttimeEmployee.cs",
+              "RelativeDocumentMoniker": "OOP2\\ParttimeEmployee.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\OOP2\\ParttimeEmployee.cs",
+              "RelativeToolTip": "OOP2\\ParttimeEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:01:23.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\Collection_Generic\\Program.cs",
+              "RelativeDocumentMoniker": "Collection_Generic\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\Collection_Generic\\Program.cs",
+              "RelativeToolTip": "Collection_Generic\\Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAlwEwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T01:51:36.379Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
