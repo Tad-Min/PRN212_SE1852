@@ -1,0 +1,14 @@
+D:\fpt\C#\PRN212_SE1852\callbyRederence\bin\Debug\net9.0\callbyRederence.exe
+D:\fpt\C#\PRN212_SE1852\callbyRederence\bin\Debug\net9.0\callbyRederence.deps.json
+D:\fpt\C#\PRN212_SE1852\callbyRederence\bin\Debug\net9.0\callbyRederence.runtimeconfig.json
+D:\fpt\C#\PRN212_SE1852\callbyRederence\bin\Debug\net9.0\callbyRederence.dll
+D:\fpt\C#\PRN212_SE1852\callbyRederence\bin\Debug\net9.0\callbyRederence.pdb
+D:\fpt\C#\PRN212_SE1852\callbyRederence\obj\Debug\net9.0\callbyRederence.GeneratedMSBuildEditorConfig.editorconfig
+D:\fpt\C#\PRN212_SE1852\callbyRederence\obj\Debug\net9.0\callbyRederence.AssemblyInfoInputs.cache
+D:\fpt\C#\PRN212_SE1852\callbyRederence\obj\Debug\net9.0\callbyRederence.AssemblyInfo.cs
+D:\fpt\C#\PRN212_SE1852\callbyRederence\obj\Debug\net9.0\callbyRederence.csproj.CoreCompileInputs.cache
+D:\fpt\C#\PRN212_SE1852\callbyRederence\obj\Debug\net9.0\callbyRederence.dll
+D:\fpt\C#\PRN212_SE1852\callbyRederence\obj\Debug\net9.0\refint\callbyRederence.dll
+D:\fpt\C#\PRN212_SE1852\callbyRederence\obj\Debug\net9.0\callbyRederence.pdb
+D:\fpt\C#\PRN212_SE1852\callbyRederence\obj\Debug\net9.0\callbyRederence.genruntimeconfig.cache
+D:\fpt\C#\PRN212_SE1852\callbyRederence\obj\Debug\net9.0\ref\callbyRederence.dll
