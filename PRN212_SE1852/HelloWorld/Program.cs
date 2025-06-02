@@ -1,27 +1,15 @@
-﻿using System.Text;
-using System;
-   namespace HelloWorld
+﻿// See https://aka.ms/new-console-template for more information
+using System.Text;
+namespace HelloWorld
+{
+    class Program
     {
-        class Program
-        {   
-            static void Main(string[] args)
-            {
-                Console.OutputEncoding = Encoding.UTF8;
-                Console.WriteLine("Hello, World!");
-                Console.WriteLine("I'm FPT student");
-                Console.WriteLine("TÔi là Huy");
-                double number = 3.14;
-                int number2 = 5;
-                String name = "Huy";
-                var sum = number + name;
-                Console.WriteLine($"Sum: {sum}");
-                
-
-            Console.ReadKey();
-            }
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Tui là FPT Sinh viên");
+            Console.ReadLine();
         }
     }
-
-
-
-
+}

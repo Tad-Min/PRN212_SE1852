@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\Collection_Generic\\Collection_Generic.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\myrepository\\PRN212_SE1852\\PRN212_SE1852\\Collection_Generic\\Collection_Generic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\Collection_Generic\\Collection_Generic.csproj": {
+    "C:\\Users\\Admin\\Desktop\\myrepository\\PRN212_SE1852\\PRN212_SE1852\\Collection_Generic\\Collection_Generic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\Collection_Generic\\Collection_Generic.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\myrepository\\PRN212_SE1852\\PRN212_SE1852\\Collection_Generic\\Collection_Generic.csproj",
         "projectName": "Collection_Generic",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\Collection_Generic\\Collection_Generic.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\myrepository\\PRN212_SE1852\\PRN212_SE1852\\Collection_Generic\\Collection_Generic.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\Collection_Generic\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\myrepository\\PRN212_SE1852\\PRN212_SE1852\\Collection_Generic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\OOP2\\OOP2.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\OOP2\\OOP2.csproj"
+              "C:\\Users\\Admin\\Desktop\\myrepository\\PRN212_SE1852\\PRN212_SE1852\\OOP2\\OOP2.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\myrepository\\PRN212_SE1852\\PRN212_SE1852\\OOP2\\OOP2.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\OOP2\\OOP2.csproj": {
+    "C:\\Users\\Admin\\Desktop\\myrepository\\PRN212_SE1852\\PRN212_SE1852\\OOP2\\OOP2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\OOP2\\OOP2.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\myrepository\\PRN212_SE1852\\PRN212_SE1852\\OOP2\\OOP2.csproj",
         "projectName": "OOP2",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\OOP2\\OOP2.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\myrepository\\PRN212_SE1852\\PRN212_SE1852\\OOP2\\OOP2.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\fpt\\PRN212\\learn\\PRN212_SE1852\\OOP2\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\myrepository\\PRN212_SE1852\\PRN212_SE1852\\OOP2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

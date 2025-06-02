@@ -8,12 +8,10 @@ namespace OOP2
 {
     public class ParttimeEmployee : Employee
     {
-        public int WorkingHours { get; set; }
-
+        public int WorkingHour { get; set; }
         public override double calSalary()
         {
-            return 1000000 * WorkingHours;
+            return 1000000 * WorkingHour;
         }
-        
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Stringinteraction")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0e69011897d19c2f2f4c96ae4d7896abf03146f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Stringinteraction")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Stringinteraction")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

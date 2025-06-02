@@ -1,87 +1,103 @@
 ﻿/*
-    Ứng dụng Generic để quản lý nhân viên, thực hiện các thao tác CRUD 
-    C - Create -> Thêm mới
-    R - Read -> Truy vấn xem sắp xếp, lọc
-    U - Update -> Chỉnh sửa dữ liệu
-    D - Delete -> Xóa dữ liệu
+ * Ứng dụng Generic để quản lý nhân viên, thực hiện
+ * các thao tác CRUD
+ * C- Create -> Thêm mới
+ * R- Read (Retrieve) --> truy vấn: Xem, sắp xếp, lọc...
+ * U- Update -> Chỉnh sửa dữ liệu
+ * D- Delete -> Xóa dữ liệu
  */
-
+//Câu 1: Tạo 5 nhân viên, 4 fulltime, 1 parttime
 using OOP2;
+using System.Text;
 
 List<Employee> employees = new List<Employee>();
 FulltimeEmployee fe1 = new FulltimeEmployee()
 {
     Id = 1,
     Name = "Name 1",
-    IdCard ="123",
+    IdCard = "123",
     Birthday = new DateTime(1980, 1, 1)
 };
+employees.Add(fe1);
+
 FulltimeEmployee fe2 = new FulltimeEmployee()
 {
     Id = 2,
     Name = "Name 2",
     IdCard = "456",
-    Birthday = new DateTime(1983, 9, 11)
+    Birthday = new DateTime(1982, 12, 13)
 };
+employees.Add(fe2);
+
 FulltimeEmployee fe3 = new FulltimeEmployee()
 {
     Id = 3,
     Name = "Name 3",
     IdCard = "789",
-    Birthday = new DateTime(1993, 9, 27)
+    Birthday = new DateTime(1990, 11, 21)
 };
+employees.Add(fe3);
 
 FulltimeEmployee fe4 = new FulltimeEmployee()
 {
     Id = 4,
     Name = "Name 4",
     IdCard = "321",
-    Birthday = new DateTime(1992, 3, 10)
+    Birthday = new DateTime(1993, 9, 27)
 };
+employees.Add(fe4);
 
 ParttimeEmployee pe1 = new ParttimeEmployee()
 {
     Id = 5,
     Name = "Name 5",
-    IdCard = "654",
-    Birthday = new DateTime(1999, 5, 15),
-    WorkingHours = 10 // Số giờ làm việc
+    IdCard = "987",
+    WorkingHour = 3,
+    Birthday = new DateTime(1995, 2, 2)
 };
-employees.Add(fe1);
-employees.Add(fe2);
-employees.Add(fe3);
-employees.Add(fe4);
 employees.Add(pe1);
 
-//Câu 2: xuất toàn bộ thông tin nhân sự (R)
-Console.OutputEncoding = System.Text.Encoding.UTF8;
+//Câu 2: Xuất toàn bộ thông tin nhân sự (R)
+Console.OutputEncoding = Encoding.UTF8;
 Console.WriteLine("Thông tin toàn bộ nhân sự:");
-
-//Cách 1: Dùng Expression body (Lambda Expression)
-employees.ForEach(employee => Console.WriteLine(employee));
-
-//Cách 2: Dùng for thong thường (ko dùng =>)
-Console.WriteLine("===========Cách for thông thường");
-foreach(var e in employees)
+//cách 1: Dùng Expression body (Lambda Expression)
+employees.ForEach(e => Console.WriteLine(e));
+//Cách 2: Dùng for thông thường (ko dùng =>)
+Console.WriteLine("------Cách for thông thường------");
+foreach (var e in employees)
 {
     Console.WriteLine(e);
 }
-
-//Câu 3: Sắp xếp nhân viên theo năm sinh tăng dần.
-//Cũng là R-Read/Retrieve
-
+//Câu 3: Sắp xếp nhân viên theo năm sinh tăng dần
+//cũng là R-Read/Retrieve
 for (int i = 0; i < employees.Count; i++)
 {
-    for (int j = i+1; j<employees.Count; j++)
+    for (int j = i + 1; j < employees.Count; j++)
     {
-        if (employees[i].Birthday.Year > employees[j].Birthday.Year)
+        Employee ei = employees[i];
+        Employee ej = employees[j];
+        if (ei.Birthday < ej.Birthday)
         {
-            var temp = employees[i];
-            employees[i] = employees[j];
-            employees[j] = temp;
+            employees[i] = ej;
+            employees[j] = ei;
         }
     }
 }
-
-Console.WriteLine("-----------Employee sau khi sắp xếp---------------");
+Console.WriteLine("---------Employees sau khi sắp xếp:");
 employees.ForEach(e => Console.WriteLine(e));
+
+//Bài Tập:
+//- Bổ sung chức năng SỬA thông tin Nhân viên
+Console.WriteLine("---------Sửa thông tin nhân viên có Id=11 ----------");
+employees.Find(e => e.Id == 3).Name = "Lan Thị Điệp";
+foreach (var e in employees)
+{
+    Console.WriteLine(e);
+}
+//-Bổ sung chức năng Xóa thông tin nhân viên
+Console.WriteLine("---------Xóa thông tin nhân viên có Id=5 ----------");
+employees.RemoveAll(e => e.Id == 5);
+foreach (var e in employees)
+{
+    Console.WriteLine(e);
+}

@@ -1,39 +1,36 @@
-﻿using System.Text;
-using OOP2;
+﻿using OOP2;
+using System.Text;
 
 Console.OutputEncoding = Encoding.UTF8;
 
 FulltimeEmployee teo = new FulltimeEmployee();
 teo.Id = 1;
-teo.Name = "Teo";
+teo.Name = "Tèo";
 Console.WriteLine(teo.calSalary());
 
 ParttimeEmployee ty = new ParttimeEmployee();
-ty.WorkingHours = 2;
-ty.Name = "Ty";
+ty.WorkingHour = 2;
+ty.Name = "Tý khốn khổ";
 ty.Id = 2;
-
-Console.WriteLine($"luong cua ty = {ty.calSalary()}");
+Console.WriteLine("Lương của Tý=" + ty.calSalary());
 
 FulltimeEmployee obama = new FulltimeEmployee()
 {
     Id = 100,
-    Name = "Obama",
-    IdCard = "123",
-    Birthday = new DateTime(1960, 1, 25)
+    Name = "Barac Obama",
+    Birthday = new DateTime(1960, 1, 25),
+    IdCard = "123"
 };
-Console.WriteLine("============Thong tin Obama=========");
-Console.WriteLine(obama.ToString());
+Console.WriteLine("=====Thông tin của Obama=====");
+Console.WriteLine(obama);
 
 ParttimeEmployee trump = new ParttimeEmployee()
 {
     Id = 200,
-    Name = "Donald Trump",
     IdCard = "456",
+    Name = "Donald Trump",
     Birthday = new DateTime(1940, 12, 26),
-    WorkingHours = 3
+    WorkingHour = 3
 };
-
-Console.WriteLine("============Thong tin Donald Trump=========");
-Console.WriteLine(trump.ToString());
-
+Console.WriteLine("=====Thông tin của Trump=====");
+Console.WriteLine(trump);

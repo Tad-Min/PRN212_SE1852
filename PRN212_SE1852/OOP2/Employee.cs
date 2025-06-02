@@ -9,18 +9,17 @@ namespace OOP2
     public class Employee
     {
         public int Id { get; set; }
-        public String Name { get; set; }
-        public String IdCard { get; set; }
+        public string Name { get; set; }
+        public string IdCard { get; set; }
         public DateTime Birthday { get; set; }
         public virtual double calSalary()
         {
             return 4000000;
         }
-
         public override string ToString()
         {
-            return Id + "\t" + IdCard + "\t" + Name + "\t" + Birthday.ToString("dd/MM/yyyy") + "\t" + calSalary();
+            return Id + "\t" + IdCard + "\t" + Name + "\t"
+                + Birthday.ToString("dd/MM/yyyy") + "\t" + calSalary();
         }
-
     }
 }
