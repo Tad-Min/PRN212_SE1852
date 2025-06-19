@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Reviewloop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+320b3334043fed4200aebd15cfc910f1a239f6c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cec656f29f2b01d34d23b8b211027c58c8feeb10")]
 [assembly: System.Reflection.AssemblyProductAttribute("Reviewloop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Reviewloop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
