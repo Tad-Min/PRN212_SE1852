@@ -1,0 +1,42 @@
+﻿<Window x:Class="RadioButtonControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadioButtonControl"
+        mc:Ignorable="d"
+        Title="RadioButton Control" Height="450" Width="800">
+    <StackPanel>
+        <GroupBox Header="How do you feel this system?">
+            <StackPanel>
+                <RadioButton GroupName="hethong"
+                             Name="radRatTot">Verry Good</RadioButton>
+                <RadioButton GroupName="hethong"
+                             Name="radTot">Good</RadioButton>
+                <RadioButton GroupName="hethong"
+                             Name="radTamDuoc">Acceptable</RadioButton>
+                <RadioButton GroupName="hethong"
+                             Name="radKhongTot">Poor</RadioButton>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="What is your gender?">
+            <StackPanel>
+                <RadioButton GroupName="gioitinh"
+                             Name="radNam">Male</RadioButton>
+                <RadioButton GroupName="gioitinh"
+                             Name="radNu">Female</RadioButton>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Choose task?">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Send respone"
+                        Name="btnGui"
+                        Width="100" Margin="10"
+                        Click="BtnGui_Click"></Button>
+                <Button Content="Cancel" Name="btnHuy"
+                        Width="100" Margin="10"
+                        Click="BtnHuy_Click"></Button>
+            </StackPanel>
+        </GroupBox>
+    </StackPanel>
+</Window>
