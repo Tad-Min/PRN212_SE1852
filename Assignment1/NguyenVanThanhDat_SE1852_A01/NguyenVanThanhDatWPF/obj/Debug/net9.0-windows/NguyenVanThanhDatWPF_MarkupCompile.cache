@@ -1,5 +1,5 @@
 ﻿NguyenVanThanhDatWPF
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 C:\Users\Admin\Desktop\Repository\PRN212_SE1852\Assignment1\NguyenVanThanhDat_SE1852_A01\NguyenVanThanhDatWPF\App.xaml
 91528167264
 
-141644390315
+12-537534695
 204-1040728007
 AddProductToOrderWindow.xaml;CustomerManagementPage.xaml;LoginWindow.xaml;MainWindow.xaml;OrderHistoryPage.xaml;OrderManagementPage.xaml;ProductManagementPage.xaml;ProfilePage.xaml;ReportPage.xaml;
 
-True
+False
 
