@@ -18,19 +18,19 @@ namespace NguyenVanThanhDatWPF
             _authService = new AuthService();
             _customerService = new CustomerService();
 
-            // Initialize datasets
             _customerService.InitializeDataset();
         }
 
         private void LoginTypeComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (CustomerPanel == null || AdminPanel == null) return;
-            if (LoginTypeComboBox.SelectedIndex == 0) // Khách hàng
+            if (LoginTypeComboBox.SelectedIndex == 0)
+
             {
                 CustomerPanel.Visibility = Visibility.Visible;
                 AdminPanel.Visibility = Visibility.Collapsed;
             }
-            else // Nhân viên
+            else 
             {
                 CustomerPanel.Visibility = Visibility.Collapsed;
                 AdminPanel.Visibility = Visibility.Visible;
@@ -57,7 +57,7 @@ namespace NguyenVanThanhDatWPF
                 }
                 else
                 {
-                    txtStatus.Text = "Sai tài khoản hoặc mật khẩu nhân viên!";
+                    txtStatus.Text = "Sai tài khoản hoặc mật khẩu!";
                     return;
                 }
             }
@@ -67,7 +67,7 @@ namespace NguyenVanThanhDatWPF
                 var customer = _authService.CustomerLogin(phone);
                 if (customer != null)
                 {
-                    txtStatus.Text = "Đăng nhập khách hàng thành công!";
+                    txtStatus.Text = "Đăng nhập thành công!";
                     var customerWindow = new MainWindow(_authService);
                     customerWindow.Show();
                     this.Close();
@@ -75,7 +75,7 @@ namespace NguyenVanThanhDatWPF
                 }
                 else
                 {
-                    txtStatus.Text = "Số điện thoại không tồn tại!";
+                    txtStatus.Text = "Số điện thoại chưa đăng ký";
                     return;
                 }
             }

@@ -8,18 +8,60 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="OrderHistoryPage">
 
-    <Grid>
+    <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Lịch sử đơn hàng" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
-        <DataGrid x:Name="dgOrderHistory" Grid.Row="1" AutoGenerateColumns="False" IsReadOnly="True">
+
+        <!-- Tiêu đề -->
+        <TextBlock Text="Lịch sử đơn hàng"
+               FontWeight="Bold"
+               FontSize="20"
+               Foreground="#2C3E50"
+               HorizontalAlignment="Center"
+               Margin="0,0,0,20"/>
+
+        <!-- Bảng lịch sử đơn -->
+        <DataGrid x:Name="dgOrderHistory"
+              Grid.Row="1"
+              AutoGenerateColumns="False"
+              IsReadOnly="True"
+              HeadersVisibility="Column"
+              CanUserAddRows="False"
+              AlternatingRowBackground="#F2F2F2"
+              RowBackground="White"
+              GridLinesVisibility="Horizontal"
+              HorizontalAlignment="Stretch"
+              VerticalAlignment="Stretch"
+              Margin="0,0,0,10"
+              FontSize="14"
+              ColumnHeaderHeight="35"
+              RowHeight="30"
+              BorderBrush="#BDC3C7"
+              BorderThickness="1">
+
+            <DataGrid.Resources>
+                <!-- Header Style -->
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#2980B9"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontWeight" Value="SemiBold"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="Padding" Value="6"/>
+                </Style>
+                <!-- Center TextCell -->
+                <Style TargetType="DataGridCell">
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                </Style>
+            </DataGrid.Resources>
+
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Mã Đơn" Binding="{Binding OrderId}" Width="80"/>
-                <DataGridTextColumn Header="Ngày đặt" Binding="{Binding OrderDate, StringFormat=dd/MM/yyyy}" Width="120"/>
-                <DataGridTextColumn Header="Tổng tiền" Binding="{Binding TotalAmount}" Width="120"/>
+                <DataGridTextColumn Header="Mã Đơn" Binding="{Binding OrderId}" Width="100"/>
+                <DataGridTextColumn Header="Ngày đặt" Binding="{Binding OrderDate, StringFormat=dd/MM/yyyy}" Width="150"/>
+                <DataGridTextColumn Header="Tổng tiền" Binding="{Binding TotalAmount, StringFormat=N0}" Width="150"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

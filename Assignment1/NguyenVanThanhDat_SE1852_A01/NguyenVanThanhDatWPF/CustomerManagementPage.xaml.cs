@@ -38,12 +38,6 @@ namespace NguyenVanThanhDatWPF
             LoadCustomers();
         }
 
-        private void LoadCustomers()
-        {
-            _customers = new ObservableCollection<Customer>(_customerService.GetAllCustomers());
-            dgCustomers.ItemsSource = _customers;
-        }
-
         private void dgCustomers_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (dgCustomers.SelectedItem is Customer cust)
@@ -159,6 +153,12 @@ namespace NguyenVanThanhDatWPF
                 o.OrderDate,
                 TotalAmount = o.OrderDetails?.Sum(d => d.UnitPrice * d.Quantity) ?? 0
             }).ToList();
+        }
+
+        private void LoadCustomers()
+        {
+            _customers = new ObservableCollection<Customer>(_customerService.GetAllCustomers());
+            dgCustomers.ItemsSource = _customers;
         }
 
         private int GetCurrentCustomerId()

@@ -27,6 +27,11 @@ namespace NguyenVanThanhDatWPF
             InitializeComponent();
             cbProduct.ItemsSource = products;
         }
+        private void BtnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            DialogResult = false;
+            Close();
+        }
 
         private void BtnOK_Click(object sender, RoutedEventArgs e)
         {
@@ -47,10 +52,5 @@ namespace NguyenVanThanhDatWPF
             Close();
         }
 
-        private void BtnCancel_Click(object sender, RoutedEventArgs e)
-        {
-            DialogResult = false;
-            Close();
-        }
     }
 }

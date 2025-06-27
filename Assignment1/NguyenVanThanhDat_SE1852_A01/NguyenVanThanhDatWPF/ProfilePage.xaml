@@ -8,27 +8,55 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ProfilePage">
 
-    <Grid>
+    <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Chỉnh sửa thông tin khách hàng" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
-        <StackPanel Grid.Row="1" Margin="0,10,0,0">
-            <Label Content="Tên công ty"/>
-            <TextBox x:Name="txtCompanyName"/>
-            <Label Content="Người liên hệ"/>
-            <TextBox x:Name="txtContactName"/>
-            <Label Content="Chức danh"/>
-            <TextBox x:Name="txtContactTitle"/>
-            <Label Content="Địa chỉ"/>
-            <TextBox x:Name="txtAddress"/>
-            <Label Content="SĐT"/>
-            <TextBox x:Name="txtPhone"/>
+
+        <!-- Tiêu đề -->
+        <TextBlock Text="Chỉnh sửa thông tin khách hàng"
+               FontWeight="Bold"
+               FontSize="20"
+               Foreground="#2C3E50"
+               HorizontalAlignment="Center"
+               Margin="0,0,0,20"/>
+
+        <!-- Nội dung chỉnh sửa -->
+        <StackPanel Grid.Row="1" Margin="0,0,0,20">
+            <UniformGrid Columns="2" Rows="5" Margin="0,0,0,10" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                <Label Content="Tên công ty:" VerticalAlignment="Center"/>
+                <TextBox x:Name="txtCompanyName" Padding="6" Margin="0,4" Width="250"/>
+
+                <Label Content="Người liên hệ:" VerticalAlignment="Center"/>
+                <TextBox x:Name="txtContactName" Padding="6" Margin="0,4" Width="250"/>
+
+                <Label Content="Chức danh:" VerticalAlignment="Center"/>
+                <TextBox x:Name="txtContactTitle" Padding="6" Margin="0,4" Width="250"/>
+
+                <Label Content="Địa chỉ:" VerticalAlignment="Center"/>
+                <TextBox x:Name="txtAddress" Padding="6" Margin="0,4" Width="250"/>
+
+                <Label Content="SĐT:" VerticalAlignment="Center"/>
+                <TextBox x:Name="txtPhone" Padding="6" Margin="0,4" Width="250"/>
+            </UniformGrid>
         </StackPanel>
-        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
-            <Button Content="Lưu" Width="80" Margin="0,0,10,0" Click="BtnSaveProfile_Click"/>
+
+        <!-- Nút lưu -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Border CornerRadius="6" Background="#3498DB" Margin="0,0,10,0">
+                <Button Content="Lưu"
+                Width="100"
+                Height="35"
+                Padding="5"
+                Background="Transparent"
+                Foreground="White"
+                BorderBrush="Transparent"
+                FontWeight="SemiBold"
+                Click="BtnSaveProfile_Click"/>
+            </Border>
         </StackPanel>
     </Grid>
+
 </Page>

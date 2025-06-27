@@ -57,10 +57,10 @@ namespace NguyenVanThanhDatWPF
         {
             txtStatus.Text = "";
             int id = 0, quantity = 0;
-            decimal price = 0;
+            double price = 0;
             int.TryParse(txtId.Text, out id);
             int.TryParse(txtQuantity.Text, out quantity);
-            decimal.TryParse(txtPrice.Text, out price);
+            double.TryParse(txtPrice.Text, out price);
             var prod = new Product
             {
                 ProductId = id,
@@ -75,7 +75,7 @@ namespace NguyenVanThanhDatWPF
             }
             if (!_productService.SaveProduct(prod))
             {
-                txtStatus.Text = $"Mã SP đã tồn tại hoặc lỗi khi lưu!";
+                txtStatus.Text = $"Mã sản phẩm đã tồn tại hoặc lỗi khi lưu!";
                 return;
             }
             txtStatus.Text = "Lưu mới thành công!";
@@ -87,10 +87,10 @@ namespace NguyenVanThanhDatWPF
         {
             txtStatus.Text = "";
             int id = 0, quantity = 0;
-            decimal price = 0;
+            double price = 0;
             int.TryParse(txtId.Text, out id);
             int.TryParse(txtQuantity.Text, out quantity);
-            decimal.TryParse(txtPrice.Text, out price);
+            double.TryParse(txtPrice.Text, out price);
             var prod = new Product
             {
                 ProductId = id,

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NguyenVanThanhDatWPF"
         mc:Ignorable="d"
-        Title="Nguyen Van Thanh Dat -LoginWindow" Height="450" Width="800">
+        Title="Sales Management System - LoginWindow - Cre:NguyenVanThanhDat" Height="450" Width="800">
     <Grid>
         <Label Content="Chọn phương thức đăng nhập"
            HorizontalAlignment="Center"

@@ -33,7 +33,7 @@ public partial class MainWindow : Window
         var currentEmployee = _authService.GetCurrentEmployee();
         if (currentEmployee != null)
         {
-            this.Title = $"Nguyen Van Thanh Dat - Sales Management System - {currentEmployee.Name} ({currentEmployee.JobTitle})";
+            this.Title = $"Sales Management System - {currentEmployee.Name} ({currentEmployee.JobTitle})";
         }
 
 
