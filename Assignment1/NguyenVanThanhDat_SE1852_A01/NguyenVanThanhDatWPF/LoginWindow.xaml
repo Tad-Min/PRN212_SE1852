@@ -1,0 +1,77 @@
+﻿<Window x:Class="NguyenVanThanhDatWPF.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenVanThanhDatWPF"
+        mc:Ignorable="d"
+        Title="Nguyen Van Thanh Dat -LoginWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Chọn phương thức đăng nhập"
+           HorizontalAlignment="Center"
+           Margin="0,77,0,0"
+           VerticalAlignment="Top"
+           FontFamily="Arial"
+           FontSize="36"
+           FontWeight="Bold"/>
+
+        <!-- txtStatus -->
+        <TextBlock x:Name="txtStatus"
+               Foreground="Red"
+               FontSize="14"
+               FontWeight="SemiBold"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               TextAlignment="Center"
+               Margin="0,120,0,0" />
+
+        <ComboBox x:Name="LoginTypeComboBox"
+              SelectedIndex="0"
+              HorizontalAlignment="Center"
+              Margin="0,148,0,0"
+              VerticalAlignment="Top"
+              FontSize="20"
+              FontFamily="Arial"
+              SelectionChanged="LoginTypeComboBox_SelectionChanged">
+            <ComboBoxItem Content="Khách hàng"/>
+            <ComboBoxItem Content="Nhân viên"/>
+        </ComboBox>
+
+        <!-- Panel cho khách hàng -->
+        <StackPanel x:Name="CustomerPanel"
+                Visibility="Visible"
+                Margin="0,200,0,0"
+                HorizontalAlignment="Center">
+            <TextBlock Text="Đăng nhập khách hàng"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="0,10,0,5"/>
+            <TextBlock Text="Số điện thoại:"/>
+            <TextBox x:Name="txtPhone" Width="200"/>
+        </StackPanel>
+
+        <!-- Panel cho nhân viên -->
+        <StackPanel x:Name="AdminPanel"
+                Visibility="Collapsed"
+                Margin="0,200,0,0"
+                HorizontalAlignment="Center">
+            <TextBlock Text="Đăng nhập nhân viên"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="0,10,0,5"/>
+            <TextBlock Text="Username:"/>
+            <TextBox x:Name="txtUsername" Width="200"/>
+            <TextBlock Text="Password:"/>
+            <PasswordBox x:Name="txtPassword" Width="200"/>
+        </StackPanel>
+
+        <Button x:Name="Login"
+            Content="Login"
+            Width="120"
+            Height="40"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Bottom"
+            Margin="0,0,0,30"
+            Click="Login_Click"/>
+    </Grid>
+</Window>

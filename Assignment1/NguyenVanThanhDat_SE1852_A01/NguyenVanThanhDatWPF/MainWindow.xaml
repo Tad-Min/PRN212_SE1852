@@ -1,0 +1,39 @@
+﻿<Window x:Class="NguyenVanThanhDatWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenVanThanhDatWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Button Content="Logout" DockPanel.Dock="Top" HorizontalAlignment="Right" Margin="10" Width="80" Click="Logout_Click"/>
+        <TabControl x:Name="tabControlMain">
+            <!-- Manage Customers -->
+            <TabItem x:Name="tabManageCustomerAdmin" Header="Manage Customers" Visibility="Collapsed">
+                <Frame Source="CustomerManagementPage.xaml"/>
+            </TabItem>
+
+            <!-- Manage Products -->
+            <TabItem x:Name="tabManageProductAdmin" Header="Manage Products" Visibility="Collapsed">
+                <Frame Source="ProductManagementPage.xaml"/>
+            </TabItem>
+
+            <!-- Orders -->
+            <TabItem x:Name="tabOrderAdmin" Header="Orders" Visibility="Collapsed">
+                <Frame Source="OrderManagementPage.xaml"/>
+            </TabItem>
+
+            <!-- Reports -->
+            <TabItem x:Name="tabRReportAdmin" Header="Reports" Visibility="Collapsed">
+                <Frame Source="ReportPage.xaml"/>
+            </TabItem>
+            
+            <!--For Customer-->
+            <!-- Order History -->
+            <TabItem x:Name="tabOrderCustomer" Header="My Orders" Visibility="Collapsed"/>
+            <!-- Profile -->
+            <TabItem x:Name="tabProfileCustomer" Header="My Profile" Visibility="Collapsed"/>
+        </TabControl>
+    </DockPanel>
+</Window>
