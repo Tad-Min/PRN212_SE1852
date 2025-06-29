@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections.Generic;
-using BusinessObjects;
+﻿using BusinessObjects;
 
 namespace DataAccessObjects
 {
@@ -33,7 +27,7 @@ namespace DataAccessObjects
                 listCategories.Add(produce);
                 listCategories.Add(seafood);
             }
-            catch (Exception e) 
+            catch (Exception e)
             {
                 throw new Exception(e.Message);
             }
