@@ -27,6 +27,8 @@ public partial class MyStoreContext : DbContext
         IConfiguration configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", true, true).Build();
+        Console.WriteLine(Directory.GetCurrentDirectory());
+
         return configuration["ConnectionStrings:DefaultConnectionString"];
     }
 
