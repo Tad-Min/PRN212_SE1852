@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "Reviewfor/1.0.0": {
+      "ReviewFor/1.0.0": {
         "runtime": {
-          "Reviewfor.dll": {}
+          "ReviewFor.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Reviewfor/1.0.0": {
+    "ReviewFor/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

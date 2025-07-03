@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 
 namespace OOP1
 {
-    public class category
+    public class Category
     {
-        public int id;
-        public string name;
-
-        public void printInfor()
+        public int Id;
+        public string Name;
+        public void PrintInfor()
         {
-            Console.WriteLine($"{id}\t {name}");
+            Console.WriteLine($"{Id}\t{Name}");
         }
-
-
     }
 }

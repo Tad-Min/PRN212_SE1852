@@ -1,14 +1,18 @@
-﻿using System.Text;
+﻿
+using System.Text;
 
-String firstname = "Nguyen";
-String midname = "Gia";
-String lastname = "Huy";
-StringBuilder sb = new StringBuilder();
-sb.Append(firstname);
-sb.Append(' ');
-sb.Append(midname);
+Console.OutputEncoding = Encoding.UTF8;
+string ho = "Nguyễn";
+String tenlot = "Thị";
+string ten = "Tèo";
+string tenfull=ho+" "+tenlot+" "+ten;
+Console.WriteLine(tenfull);
+StringBuilder sb=new StringBuilder();
+sb.Append(ho);
 sb.Append(" ");
-sb.Append(lastname);
-String fullname = sb.ToString();
-Console.WriteLine(fullname);
-Console.ReadKey(); 
+sb.Append(tenlot);
+sb.Append(" ");
+sb.Append(ten);
+string name2 = sb.ToString();
+Console.WriteLine(name2);
+Console.ReadLine();

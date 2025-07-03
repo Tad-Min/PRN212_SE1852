@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace OOP2
 {
-    public class FulltimeEmployee : Employee
+    public class FulltimeEmployee:Employee
     {
         public override double calSalary()
         {
-            return base.calSalary() + 5000000;
+            return base.calSalary()+5000000;
         }
     }
 }

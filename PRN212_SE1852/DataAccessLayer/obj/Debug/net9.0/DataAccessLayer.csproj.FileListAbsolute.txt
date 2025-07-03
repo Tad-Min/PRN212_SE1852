@@ -1,16 +1,15 @@
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.deps.json
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.dll
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.pdb
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\bin\Debug\net9.0\BusinessObjects.dll
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\bin\Debug\net9.0\BusinessObjects.pdb
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.AssemblyReference.cache
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfoInputs.cache
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfo.cs
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.sourcelink.json
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAcce.E67BD773.Up2Date
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.dll
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\refint\DataAccessLayer.dll
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.pdb
-C:\Users\Admin\Desktop\Repository\PRN212_SE1852\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\ref\DataAccessLayer.dll
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.deps.json
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.dll
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.pdb
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\bin\Debug\net9.0\BusinessObjects.dll
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\bin\Debug\net9.0\BusinessObjects.pdb
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfo.cs
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAcce.E67BD773.Up2Date
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.dll
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\refint\DataAccessLayer.dll
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.pdb
+D:\FPT\PRN212-Basis Cross-Platform CSharp\Pratice\PRN212_SE1852\DataAccessLayer\obj\Debug\net9.0\ref\DataAccessLayer.dll

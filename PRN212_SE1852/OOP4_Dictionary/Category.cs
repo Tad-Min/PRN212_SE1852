@@ -8,12 +8,11 @@ namespace OOP4_Dictionary
 {
     public class Category
     {
-        public int Id { get; set; }
+        public int Id {  get; set; }
         public string Name { get; set; }
-        public Dictionary<int, Product> Products { get; set; }
-        public Category()
-        {
-            Products = new Dictionary<int, Product>();
+        public Dictionary<int,Product> Products { get; set; }
+        public Category() { 
+            Products = new Dictionary<int,Product>();
         }
         //CRUD:
         //Thêm mới một sản phẩm cho Category:
@@ -27,11 +26,11 @@ namespace OOP4_Dictionary
         }
         public void PrintAllProducts()
         {
-            foreach (KeyValuePair<int, Product> item in Products)
+            foreach(KeyValuePair<int,Product> item in Products)
             {
                 Product p = item.Value;
                 Console.WriteLine(p);//tự động gọi hàm ToString()
-            }
+            }    
         }
         //lấy chi tiết 1 đối tượng:
         public Product GetProduct(int id)
@@ -40,13 +39,13 @@ namespace OOP4_Dictionary
                 return null;
             return Products[id];
         }
-        public Dictionary<int, Product> SortProduct()
+        public Dictionary<int,Product>SortProduct()
         {
             return Products
                         .OrderBy(item => item.Value.Price)
-                        .ToDictionary<int, Product>();
+                        .ToDictionary<int,Product>();
         }
-        public Dictionary<int, Product> ComplexSort()
+        public Dictionary<int,Product>ComplexSort()
         {
             return Products
                         .OrderByDescending(item => item.Value.Quantity)
@@ -55,7 +54,7 @@ namespace OOP4_Dictionary
         }
         public void EditProduct(Product p)
         {
-            if (Products.ContainsKey(p.Id) == false)
+            if(Products.ContainsKey(p.Id) == false)
             {
                 return;
             }
@@ -74,7 +73,5 @@ namespace OOP4_Dictionary
          * Xóa tất cả sản phẩm bán ế trong quý 1 năm 2025
          * ế: Bán chỉ được 1 đơn hàng
          */
-
-
     }
 }

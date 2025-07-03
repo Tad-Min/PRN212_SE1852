@@ -18,8 +18,8 @@ namespace OOP2
         }
         public override string ToString()
         {
-            return Id + "\t" + IdCard + "\t" + Name + "\t"
-                + Birthday.ToString("dd/MM/yyyy") + "\t" + calSalary();
+            return Id+"\t"+IdCard+"\t"+Name+"\t"
+                +Birthday.ToString("dd/MM/yyyy")+"\t"+calSalary();
         }
     }
 }

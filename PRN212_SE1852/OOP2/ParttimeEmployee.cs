@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace OOP2
 {
-    public class ParttimeEmployee : Employee
+    public class ParttimeEmployee:Employee
     {
-        public int WorkingHour { get; set; }
+        public int WorkingHour {  get; set; }
         public override double calSalary()
         {
-            return 1000000 * WorkingHour;
+            return 1000000*WorkingHour;
         }
     }
 }

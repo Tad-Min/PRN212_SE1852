@@ -52,7 +52,7 @@ ParttimeEmployee pe1 = new ParttimeEmployee()
     Id = 5,
     Name = "Name 5",
     IdCard = "987",
-    WorkingHour = 3,
+    WorkingHour =3,
     Birthday = new DateTime(1995, 2, 2)
 };
 employees.Add(pe1);
@@ -64,40 +64,24 @@ Console.WriteLine("Thông tin toàn bộ nhân sự:");
 employees.ForEach(e => Console.WriteLine(e));
 //Cách 2: Dùng for thông thường (ko dùng =>)
 Console.WriteLine("------Cách for thông thường------");
-foreach (var e in employees)
+foreach(var e in employees)
 {
     Console.WriteLine(e);
-}
+}    
 //Câu 3: Sắp xếp nhân viên theo năm sinh tăng dần
 //cũng là R-Read/Retrieve
 for (int i = 0; i < employees.Count; i++)
 {
-    for (int j = i + 1; j < employees.Count; j++)
+    for (int j = i+1; j < employees.Count; j++)
     {
-        Employee ei = employees[i];
-        Employee ej = employees[j];
-        if (ei.Birthday < ej.Birthday)
+        Employee ei=employees[i];
+        Employee ej=employees[j];
+        if(ei.Birthday<ej.Birthday)
         {
             employees[i] = ej;
             employees[j] = ei;
-        }
-    }
+        }    
+    }           
 }
 Console.WriteLine("---------Employees sau khi sắp xếp:");
 employees.ForEach(e => Console.WriteLine(e));
-
-//Bài Tập:
-//- Bổ sung chức năng SỬA thông tin Nhân viên
-Console.WriteLine("---------Sửa thông tin nhân viên có Id=11 ----------");
-employees.Find(e => e.Id == 3).Name = "Lan Thị Điệp";
-foreach (var e in employees)
-{
-    Console.WriteLine(e);
-}
-//-Bổ sung chức năng Xóa thông tin nhân viên
-Console.WriteLine("---------Xóa thông tin nhân viên có Id=5 ----------");
-employees.RemoveAll(e => e.Id == 5);
-foreach (var e in employees)
-{
-    Console.WriteLine(e);
-}

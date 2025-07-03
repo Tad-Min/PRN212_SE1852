@@ -9,9 +9,6 @@ namespace Repositories
 {
     public interface IUserRepository
     {
-        void CreateUser(User user);
-        void DeleteUser(User user);
-        void UpdateUser(User user);
         List<User> GetAllUsers();
     }
 }
