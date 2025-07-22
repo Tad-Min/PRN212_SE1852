@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfApp_EF_IO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_EF_IO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Name="mnuHeThong" Header="Hệ Thống">
+                <MenuItem Name="mnuHeThongDoiMatKhau" Header="Đổi Mật Khẩu"></MenuItem>
+                <MenuItem Name="mnuHeThongThongTinTaiKhoan" Header="Thông tin tài khoản"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Name="mnuHeThongThoat" Header="Thoát"></MenuItem>
+            </MenuItem>
+            <MenuItem Name="mnuQuanLy" Header="Quản Lý">
+                <MenuItem Name="mnuQuanLyTaiKhoan" Header="Quản lý tài khoản"></MenuItem>
+                <MenuItem Name="mnuQuanLyDanhMuc" Header="Quản lý Danh mục"></MenuItem>
+                <MenuItem Name="mnuQuanLySanPham" Header="Quản lý Sản Phẩm"></MenuItem>
+            </MenuItem>
+            <MenuItem Name="mnuBaoCao" Header="Báo Cáo">
+                <MenuItem Name="mnuBaoCaoDoanhThu" Header="Báo cáo Doanh Thu"></MenuItem>
+                <MenuItem Name="mnuBaoCaoTonKho" Header="Báo cáo Tồn Kho"></MenuItem>
+            </MenuItem>
+            <MenuItem Name="mnuTroGiup" Header="Trợ Giúp">
+                <MenuItem Name="mnuTroGiupSuDungPhanPhan" Header="Hướng dẫn sử dụng phần mềm"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Name="mnuTroGiupGioiThieu" Header="Giới thiệu phần mềm"></MenuItem>
+            </MenuItem>
+        </Menu>
+    </DockPanel>
+</Window>

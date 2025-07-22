@@ -1,0 +1,131 @@
+﻿<UserControl x:Class="NguyenVanThanhDatWPF.Views.AdminProfileView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NguyenVanThanhDatWPF.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="1"
+                CornerRadius="20"
+                Margin="0,0,0,0"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Stretch"
+                Background="#200F53">
+            <StackPanel Orientation="Vertical"
+                        VerticalAlignment="Center"
+                        Margin="0,30,0,10">
+
+                <!-- Title -->
+                <Label Content="Profile"
+                       FontFamily="Arial"
+                       FontSize="30"
+                       FontWeight="Bold"
+                       Foreground="{StaticResource color1}"
+                       HorizontalAlignment="Center"
+                       Margin="0,10,0,10"/>
+
+                <!-- Name -->
+                <DockPanel Margin="10" LastChildFill="True">
+                    <TextBlock Text="Name: "
+                                FontSize="20"
+                                FontFamily="Arial"
+                                VerticalAlignment="Center"
+                                DockPanel.Dock="Left"
+                                Foreground="White"
+                                Width="120"/>
+                    <TextBox x:Name="txtName"
+                             Background="Transparent"
+                             BorderThickness="0,0,0,1"
+                             FontSize="20"
+                             FontFamily="Arial"
+                             Foreground="White"
+                             BorderBrush="{StaticResource color5}"/>
+                </DockPanel>
+
+                <!-- JobTitle -->
+                <DockPanel Margin="10" LastChildFill="True">
+                    <TextBlock Text="Job Title: "
+                                FontSize="20"
+                                FontFamily="Arial"
+                                VerticalAlignment="Center"
+                                DockPanel.Dock="Left"
+                                Foreground="White"
+                                Width="120"/>
+                    <TextBox x:Name="txtJobTitle"
+                                Background="Transparent"
+                                BorderThickness="0,0,0,1"
+                                FontSize="20"
+                                FontFamily="Arial"
+                                 Foreground="White"
+                                BorderBrush="{StaticResource color5}"/>
+                </DockPanel>
+
+                <!-- BirthDate -->
+                <DockPanel Margin="10" LastChildFill="True">
+                    <TextBlock Text="Birth Date: "
+                                FontSize="20"
+                                FontFamily="Arial"
+                                VerticalAlignment="Center"
+                                DockPanel.Dock="Left"
+                                Foreground="White"
+                                Width="120"/>
+                    <DatePicker x:Name="dpBirthDate"
+                                FontSize="20"
+                                FontFamily="Arial"
+                                BorderBrush="{StaticResource color5}"
+                                Background="Transparent"
+                                Foreground="Black"
+                                SelectedDateFormat="Short"/>
+                </DockPanel>
+
+                <!-- Address -->
+                <DockPanel Margin="10" LastChildFill="True">
+                    <TextBlock Text="Address: "
+                                FontSize="20"
+                                FontFamily="Arial"
+                                VerticalAlignment="Center"
+                                DockPanel.Dock="Left"
+                                Foreground="White"
+                                Width="120"/>
+                    <TextBox x:Name="txtAddress"
+                                 Background="Transparent"
+                                 BorderThickness="0,0,0,1"
+                                 FontSize="20"
+                                 FontFamily="Arial"
+                                 BorderBrush="{StaticResource color5}"
+                                 Foreground="White"/>       
+                </DockPanel>
+
+                <!-- Buttons -->
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Center"
+                            Margin="10">
+                    <!-- Update Profile -->
+                    <Button x:Name="btnUpdate" Content="Update Profile"
+                            Width="170" Height="50"
+                            FontFamily="Arial" FontSize="20"
+                            Foreground="AliceBlue"
+                            Margin="10" Click="btnUpdate_Click">     
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border CornerRadius="10"
+                                        Background="{StaticResource btnColor1}"
+                                        Padding="10">
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                                      VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

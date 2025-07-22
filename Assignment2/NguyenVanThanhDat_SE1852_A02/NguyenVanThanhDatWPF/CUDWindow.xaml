@@ -1,0 +1,33 @@
+﻿<Window x:Class="NguyenVanThanhDatWPF.CUDWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenVanThanhDatWPF"
+        mc:Ignorable="d"
+        Title="CUDWindow" Height="600" Width="800"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent">
+    <Border CornerRadius="0,0,10,10">
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                <GradientStop Color="{StaticResource BgColor4}" Offset="0"/>
+                <GradientStop Color="{StaticResource BgColor5}" Offset="1"/>
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.4*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.4*"/>
+            </Grid.ColumnDefinitions>
+
+            <ContentControl x:Name="MainContent"
+                            Grid.Column="1">
+                
+                
+            </ContentControl>
+        </Grid>
+    </Border>
+</Window>

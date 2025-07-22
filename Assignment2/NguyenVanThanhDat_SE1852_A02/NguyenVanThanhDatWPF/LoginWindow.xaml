@@ -1,0 +1,100 @@
+﻿<Window x:Class="NguyenVanThanhDatWPF.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenVanThanhDatWPF"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="450" Width="800">
+    <Border>
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                <GradientStop Color="{StaticResource BgColor1}" Offset="0"/>
+                <GradientStop Color="{StaticResource BgColor2}" Offset="1"/>
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="500"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Border Grid.Column="1"
+                    CornerRadius="20"
+                    Margin="0,0,0,0"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Stretch">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
+                        <GradientStop Color="{StaticResource bdBgColor1}" Offset="0"/>
+                        <GradientStop Color="{StaticResource bdBgColor5}" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <ContentControl x:Name="LoginControl" >
+                    <StackPanel Orientation="Vertical"
+            VerticalAlignment="Center"
+            Margin="0,30,0,10">
+                        <Label Content="LOGIN"
+           FontFamily="Arial"
+           FontSize="30"
+           FontWeight="Bold"
+           Foreground="{StaticResource color7}"
+           HorizontalAlignment="Center"
+           Margin="0,10,0,10"/>
+                        <!-- Admin Login -->
+                        <Button x:Name="btnAdminLogin" Content="Login Admin"
+                FontFamily="Arial" FontSize="20"
+                Foreground="AliceBlue"
+                Margin="10" Click="btnAdminLogin_Click">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border CornerRadius="10"
+                            Background="{StaticResource btnColor1}"
+                            Padding="10">
+                                        <ContentPresenter HorizontalAlignment="Center"
+                                      VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                        <!-- Customer Login -->
+                        <Button x:Name="btnCustomerLogin" Content="Login Customer"
+            FontFamily="Arial" FontSize="20"
+            Foreground="AliceBlue"
+            Margin="10" Click="btnCustomerLogin_Click">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border CornerRadius="10"
+                        Background="{StaticResource btnColor2}"
+                        Padding="10">
+                                        <ContentPresenter HorizontalAlignment="Center"
+                              VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                        <!-- Exit -->
+                        <Button x:Name="btnExit" Content="Exit"
+            FontFamily="Arial" FontSize="20"
+            Foreground="AliceBlue"
+            Margin="10" Click="btnExit_Click">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border CornerRadius="10"
+                Background="{StaticResource btnColor3}"
+                Padding="10">
+                                        <ContentPresenter HorizontalAlignment="Center"
+                              VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                    </StackPanel>
+                </ContentControl>
+                
+            </Border>
+        </Grid>
+    </Border>
+</Window>
