@@ -1,4 +1,4 @@
 # Visual Studio cache/settings
 .vs/
-
-/PRN212_SE1852/.vs
+obj/
+bin/
